@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class PowersTable {
+	
+	public static void main(String[] args) {
+		
+		Scanner scnr = new Scanner(System.in);
+		
+		System.out.print("Hello there! Please enter an integer: ");
+		
+		int userNum = scnr.nextInt();
+		
+		for(int i = 0; i <= userNum; i++) {
+			System.out.print(i + " ");
+			System.out.print(i*i + " ");
+			System.out.print(i*i*i + " ");
+		}
+		
+		
+	}
+
+}
